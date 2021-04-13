@@ -40,6 +40,12 @@ Screenshot of the desktop page 375px x 800px
 
 ## My process
 
+The process began with structuring all the content of the web page in plain text, from containers and their respective classes to be used in the style sheets.
+
+Once all the content was structured, the visual structuring process was started from css. Starting with the positioning of the content which was centered, so from flexbox it was a very simple process.
+
+To handle measures, make a previous layout within adobeXD so you had a basis for handling measures of each element such as the width and length of each component.
+
 ### Built with
 
 - Semantic HTML5 markup
@@ -48,29 +54,45 @@ Screenshot of the desktop page 375px x 800px
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+Within the development of this project I learned a better order for the development of web pages, taking into account the properties of the containers since some depend on the measures to function.
 
-To see how you can add code snippets, see below:
+An example of this is the management of the funds of a container as was the case with this one since it requires the content of two images with a specific position to give it a solution, it was as follows:
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+body{
+  font-family: 'Kumbh Sans', sans-serif;
+  background-color: hsl(185, 75%, 39%);
+  background-image: url('../images/bg-pattern-top.svg'), url('..images/bg-pattern-bottom.svg');
+  background-repeat: no-repeat, no-repeat;
+  background-position: right 50vw bottom 50vh, left 50vw top 50vh;
 }
 ```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
+In this way you can place two backgrounds at the same time and specify properties such as repetition and position within the container.
+
+I was able to learn how to position elements thanks to flexbox, being a very easy way to be able to center elements such as in this case the user's profile, also to position the elements within the card.
+
+<p align="center">
+  <img  src="./screenshots/AdobeXD.PNG">
+</p>
+
+Finally, the small adjustments had to be made, such as the font size and the font handling of google fonts that was specified, and the handling of margins to be as similar as possible to the proposed challenge.
+
+```css
+.flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 ```
+<p align="center">
+  <img  src="./screenshots/card.jpeg">
+</p>
+
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+From this project I want to continue learning new strategies for the visual design of a web page and make use of JavaScript to make the page more dynamic.
 
 ### Useful resources
 
@@ -84,6 +106,4 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+I want to thank a YouTube channel called [Bluuweb!](https://www.youtube.com/channel/UCH7IANkyEcsVW_y1IlpkamQ) which gave me many tips and advice for handling css and how to make the project from an image, I was very encouraged and learned many concepts and strategies for layout.
