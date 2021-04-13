@@ -24,11 +24,13 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Screenshot
 
-- Screenshot of the desktop page 1440px x 800px 
+Screenshot of the desktop page 1440px x 800px 
 
 ![Screenshot of the desktop page](./screenshots/screenshotDesktop.jpeg)
 
-- Screenshot of the desktop page 375px x 800px 
+Screenshot of the desktop page 375px x 800px 
+
+<img align="center" src="./screenshots/screenshotPhone.jpeg">
 
 ![Screenshot of the desktop page](./screenshots/screenshotPhone.jpeg)
 
