@@ -28,7 +28,7 @@ Screenshot of the desktop page 1440px x 800px
 
 ![Screenshot of the desktop page](./screenshots/screenshotDesktop.jpeg)
 
-Screenshot of the desktop page 375px x 800px 
+Screenshot of the phone page 375px x 800px 
 
 <p align="center">
   <img  src="./screenshots/screenshotPhone.jpeg">
